@@ -62,7 +62,7 @@ nav li:hover{
   padding-right: 20px;
   padding-bottom: 10px;
   color: black;
-  background-color: beige;
+  background-color: rgb(226, 226, 130);
   border: none;
 
 }
@@ -70,28 +70,42 @@ nav li:hover{
 background-color: aquamarine;
 }
 .text-primary{
-  color: aqua;
+  color:aqua;
 }
+#butt{
+  gap: 15px;
+  padding: 10px 10px 10px 10px;
+}
+
+@media screen and (max-width:567px) {
+.container{ 
+  grid-template-columns: repeat(1, 1fr);
+  .food{
+    background-color:cadetblue;
+  }
+  
+}
+.btn-primary{
+  margin-left: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: black;
+  background-color: rgb(226, 226, 130);
+  border: none;
+}
+}
+
     </style>
 </head>
 <body>
   <nav class="navigation">       
-    <h3 class="nav-title">Fo<span class="text-primary">o</span>d</h3>
-    
-    <ul class="dropdown">
-        <li class="dropdown"><a href=""></a>Delivery</li>
-    <li>
-        <a href="">Item</a>
-        <ul class="dropdown">
-            <li><a href="video.html">work</a></li>
-            <li><a href="form.html">html</a></li>
-            <li><a href="blog.html">css</a></li>
-            <li><a href="tabil.html">js</a></li>
-        </ul> 
-    </li>
-    <li><button class="btn-primary">Hire me</button></li>
-    </ul>
-    </nav>
+   <h3 class="nav-title">Fo<span class="text-primary">o</span>d</h3>
+  <li><a href="form.html"><button class="btn-primary">By now</button></a></li>
+
+  </nav>
+
   
   
   
@@ -201,6 +215,6 @@ background-color: aquamarine;
     
     
     </div>
-
+<script></script>
 </body>
 </html>                                 
